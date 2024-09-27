@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+   
+}
+.container {
+    display: flex;
+    height: 100vh;
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+}
+#containerActualTasks {
+    display: flex;
+    height: 22rem;
+    background-color: #ebe9e6;
+    border-radius: 8px;
+    overflow-y: auto;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+#containerPastTask {
+    display: flex;
+    height: 22rem;
+    background-color: #ebe9e6;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+.form-addTask {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#containerActualTasks {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    
+}
+#containerPastTask {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.5rem;  
+}
+.itemContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    padding: 1rem;
+}
