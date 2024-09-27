@@ -62,7 +62,7 @@ Antes de executar os testes de sistema, certifique-se de que a aplicação está
 - Inicie a aplicação (caso possua um script para isso):
 
 ```bash
-npm start
+npm run dev
 ```
 
 - Em seguida, execute os testes de sistema com Cypress:
